@@ -6,7 +6,7 @@ Summ.ally is an text summarizing tool that helps condense lengthy articles into 
 * Saves your previous searches in local storage so you can always find your past summaries!
 * Built using the Article Extractor and Summarizer API from RapidAPI
 
-Try it out here (deployed using Netlify): 
+Try it out here (deployed using Netlify): https://summally.netlify.app/
 
 <h3> 🧰 Tech Toolbox </h3>
 <table>
