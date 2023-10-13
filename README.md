@@ -1,6 +1,6 @@
 # Summ.ally
 
-<h3> ☄️ Text Summarizing Assistant </h3>
+<h3> 💬 Text Summarizing Assistant </h3>
 
 Summ.ally is an text summarizing tool that helps condense lengthy articles into concise passages for you to read!
 * Saves your previous searches in local storage so you can always find your past summaries!
