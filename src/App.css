@@ -26,41 +26,18 @@
   top: 0;
 }
 
-.main:after {
-  content: "";
-  background-image: url("/src/assets/grid.svg");
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  opacity: 0.4;
-  filter: invert(1);
-}
-
 .gradient {
   height: fit-content;
   z-index: 3;
   width: 100%;
-  max-width: 640px;
-  background-image: radial-gradient(
-      at 27% 37%,
-      hsla(215, 98%, 61%, 1) 0px,
-      transparent 0%
-    ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+  max-width: 840px;
   position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
   filter: blur(100px) saturate(150%);
-  top: 80px;
   opacity: 0.15;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 16%, rgba(17,13,75,1) 56%, rgba(39,33,132,1) 72%, rgba(68,59,205,1) 87%, rgba(98,166,214,1) 100%, rgba(98,166,214,1) 100%);
 }
 
 @media screen and (max-width: 640px) {
@@ -75,8 +52,8 @@
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
 
-.black_btn {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+.source_btn {
+  @apply rounded-full border border-blue-600 bg-blue-600 py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-blue-600;
 }
 
 .head_text {
@@ -88,7 +65,7 @@
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply mt-4 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
 }
 
 .url_input {
