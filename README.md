@@ -1,8 +1,21 @@
-# React + Vite
+# Summ.ally
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3> 💬 Text Summarizing Assistant </h3>
 
-Currently, two official plugins are available:
+Summ.ally is an text summarizing tool that helps condense lengthy articles into concise passages!
+* Saves your previous searches in local storage so you can always find your past summaries!
+* Built using the Article Extractor and Summarizer API from RapidAPI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Try it out here (deployed using Netlify): 
+
+<h3> 🧰 Tech Toolbox </h3>
+<table>
+    <tr>
+        <td> Languages </td>
+        <td> Javascript, HTML/CSS </td>
+    </tr>
+    <tr>
+        <td> Framework & Libraries </td>
+        <td> ReactJS, ViteJS, Tailwind CSS, Redux, RapidAI </td>
+    </tr>
+</table>
