@@ -2,7 +2,7 @@
 
 <h3> 💬 Text Summarizing Assistant </h3>
 
-Summ.ally is an text summarizing tool that helps condense lengthy articles into concise passages for you to read!
+Summ.ally is an text summarizing tool that helps condense lengthy articles into concise passages!
 * Saves your previous searches in local storage so you can always find your past summaries!
 * Built using the Article Extractor and Summarizer API from RapidAPI
 
